@@ -1,0 +1,81 @@
+/* Apply styles to all elements, adding left margin */
+* {
+    margin-left: 20px;
+  }
+  
+  /* Apply styles to the body element */
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+      45deg,
+      #f0e8db, /* Pastel yellow */
+      #dde6f2 40%, /* Pastel blue */
+      #e9d6d6 60% /* Pastel pink */
+    );
+  }
+  
+  /* Apply styles to the html element */
+  html {
+    margin: auto;
+    width: auto;
+    height: 100vh;
+    font-size: large;
+  }
+  
+  /* Apply styles to paragraph elements */
+  p {
+    font-style: italic;
+    color: black;
+  }
+  
+  /* Apply styles to the h1 elements */
+  h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #a85e6f; /* Pastel red */
+  }
+  
+  /* Apply styles to the headings with the #topic ID */
+  #topic {
+    color: #a85e6f; /* Pastel red */
+  }
+  
+  /* Apply styles to anchor (link) elements */
+  a {
+    color: #6f78a8; /* Pastel purple */
+  }
+  
+  /* Apply styles to the #image1 element */
+  #image1 {
+    float: right;
+    border-radius: 50%;
+    right: 100px;
+    opacity: 1;
+    top: 75px;
+    max-width: 40%;
+  }
+  
+  /* Apply styles to the unordered list elements */
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply styles to the unordered list items inside the h2 elements */
+  #objective ul li,
+  #education ul li,
+  #qualifications ul li,
+  #experience ul li,
+  #skills ul li {
+    list-style: disc;
+  }
+  
+  /* Apply styles to the two links at the bottom of the page */
+  a[href="./about.html"],
+  a[href="./contact.html"] {
+    display: block;
+ /* Set the margin to 6 centimeters from the bottom of the page */
+  }
+  
